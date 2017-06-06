@@ -1,0 +1,13 @@
+{
+    "header" : { "$ref" : "common/header.json" },
+    "footer" : { "$ref" : "common/footer.json" },
+    "content" : {
+        "contactFormSettings": {
+            "title" : { "$ref" : "form/choose-title-1.json" }
+        },
+        "contactForm": {
+            "title": "Mr."
+        }
+    },
+    "meta" : { "$ref" : "common/meta.json" }
+}

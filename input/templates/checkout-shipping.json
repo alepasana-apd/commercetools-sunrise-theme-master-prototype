@@ -1,0 +1,14 @@
+{
+    "header" : { "$ref" : "common/checkout-header.json"},
+    "footer" : { "$ref" : "common/checkout-footer.json" },
+    "content" : {
+        "stepWidget" : {
+            "shippingStepActive": true
+        },
+        "shippingForm" : {
+            "shippingMethods" : { "$ref" : "checkout/shipping-methods.json" }
+        },
+        "cart" : { "$ref" : "common/cart-like.json" }
+    },
+    "meta" : { "$ref" : "common/meta.json" }
+}

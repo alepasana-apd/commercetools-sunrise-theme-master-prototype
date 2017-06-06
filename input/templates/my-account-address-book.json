@@ -1,0 +1,29 @@
+{
+	"header" : { "$ref" : "common/header.json" },
+	"footer" : { "$ref" : "common/footer.json" },
+	"content" : {
+		"defaultShippingAddress" : {
+			"address" : { "$ref" : "common/address-1.json" },
+			"addressEditUrl" : "my-account-edit-address.html",
+			"addressDeleteUrl" : "my-account-address-book.html"
+		},
+		"defaultBillingAddress" : {
+			"address" : { "$ref" : "common/address-2.json" },
+			"addressEditUrl" : "my-account-edit-address.html",
+			"addressDeleteUrl" : "my-account-address-book.html"
+		},
+			"addresses" : [
+			{
+				"address" : { "$ref" : "common/address-2.json" },
+				"addressEditUrl" : "my-account-edit-address.html",
+				"addressDeleteUrl" : "my-account-address-book.html"
+			},
+			{
+				"address" : { "$ref" : "common/address-1.json" },
+				"addressEditUrl" : "my-account-edit-address.html",
+				"addressDeleteUrl" : "my-account-address-book.html"
+			}
+		]
+	},
+    "meta" : { "$ref" : "common/meta.json" }
+}

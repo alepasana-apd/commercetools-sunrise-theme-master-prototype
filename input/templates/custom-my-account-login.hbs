@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{> common/htmlhead}}
+</head>
+
+<body>
+  <div class="darkbg hidden"></div>
+  <div class="container">
+
+    <div class="my-account-login-page-title">
+      <span class="icon-user">{{i18n "my-account-login:pageTitle"}}</span>
+    </div>
+
+    <div class="login-signup-box-wrapper">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="google">
+			<a class="button google-button" href="http://localhost:9000/en/fb/user/login">
+			Log in using Google
+			</a>
+		  </div>
+		  <h3>Or log in with email</h3>
+          <div class="facebook">
+			<a class="button fb-button" href="http://localhost:9000/en/fb/user/login">
+			Log in using Facebook
+			</a>
+		  </div>
+          {{> myaccount/login-box form=content.logInForm settings=content.logInFormSettings}}
+        </div>
+      </div>
+    </div>
+
+  </div>
+  {{> common/htmlscripts}}
+</body>
+</html>

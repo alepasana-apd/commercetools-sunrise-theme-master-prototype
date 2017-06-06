@@ -1,0 +1,21 @@
+{
+    "header" : { "$ref" : "common/checkout-header.json" },
+    "footer" : { "$ref" : "common/checkout-footer.json" },
+    "content" : {
+        "cart" : { "$ref" : "common/cart-like.json" },
+        "stepWidget" : {
+            "confirmationStepActive": true
+        },
+        "checkoutForm" : {
+            "newsletter" : {
+                "name" : "SUNRISE Newsletter",
+                "selected" : true,
+                "url" : "newsletter.html"
+            },
+            "remember" : {
+                "selected": true
+            }
+        }
+    },
+    "meta" : { "$ref" : "common/meta.json" }
+}
